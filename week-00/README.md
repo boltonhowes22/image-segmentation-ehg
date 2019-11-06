@@ -16,5 +16,5 @@ https://www.tensorflow.org/tutorials
 https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/
 
 
-#### This has all the python code for writing a neural network from scratch if you are so inclined. It is probably the most comprehensive of the resources. Definitely read through thsi
+#### This has all the python code for writing a neural network from scratch if you are so inclined. It is probably the most comprehensive of the resources. Definitely read through this
 http://neuralnetworksanddeeplearning.com/chap1.html
