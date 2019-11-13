@@ -4,7 +4,7 @@ This week, our assignment is to make a neural network from scratch that only con
 
 For a single linear neuron, the neuron's output simply is a weighted sum of a linear input vector. Then, with the proper implementation of gradient decent, your neuron can learn the proper weights to get to the desired output.
 
-#### The Assignment 
+#### The Assignment
 Imagine you go to the grocery store many times, and each time you buy the same five items but in different quantities, and each time your receipt only tells you the total for your entire purchase. So, you want to use this single linear neuron to help you figure out the price of each individual item. (Obviously, this is a system of linear equations that you could just solve with algebra, but that's not the point. The point is to use this to get a grasp of how a neuron really learns, so you can then have an intuition for larger, black-box networks.)
 
 In this example, your input vector x represents the quantities of each item you purchased during one run to the store, and the unknown weights are their prices. To do this, you need to:
@@ -21,6 +21,16 @@ We've included here a .csv file that represents 100 hypothetical grocery runs wi
 
 If you're stuck at all, really default to the blog post, as there is sample code there for a slightly simpler version of this problem, and all the math for gradient calculation and everything is gone over in detail. The sample code is written in python, but feel free to use whichever language you wish. Once you have a trainable neuron, really go crazy, and see how different parameters affect its performance. Make plots, and come ready to share what you've learned.
 
+---
+#### Nifty Data Importing 
+If you are trying to do it in Python and in a Google Colab, you can run this block of code to import Ryan's training data from the GitHub without downloading the csv.
+```python
+import pandas as pd
+!git clone 'https://github.com/boltonhowes22/image-segmentation-ehg.git'
+!ls image-segmentation-ehg/
+df = pd.read_csv('image-segmentation-ehg/week-01//grocery_training_data.csv')
+df.head()
+```
 
 ## References
 
