@@ -2,7 +2,6 @@ name: img-seg
 channels:
   - conda-forge
 dependencies:
-  - python
   - numpy
   - pip:
     - matplotlib
