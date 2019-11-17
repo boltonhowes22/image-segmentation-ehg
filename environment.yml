@@ -1,9 +1,0 @@
-name: img-seg
-channels:
-  - conda-forge
-dependencies:
-  - numpy
-  - matplotlib
-  - scipy
-  - tensorflow
-  - pandas
