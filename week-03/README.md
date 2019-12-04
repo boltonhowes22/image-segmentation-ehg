@@ -10,7 +10,7 @@ Within 'data/week-03/week-03-chunks-data.csv' is 10,000 time series each 100 poi
 Think of this like the MNIST problem set, but instead of grayscale images (a 2D 'signal'), this is a time series (a 1D 'signal').
 
 
-<img src="figures/single-example.png"
+<img src="figures/multi-example.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />  
 ---
@@ -18,6 +18,6 @@ Think of this like the MNIST problem set, but instead of grayscale images (a 2D 
 
 Within  'data/week-03/week-03-multi-data.csv' is a single victory with 10,000 signals like the ones in the chunks above. The labels are in 'data/week-03/week-03-multi-labels.csv'. The goal of this is to determine which class each point in the vector belongs to. The classes are square, curve, and white noise. In the label file, row 1 = white noise, row 2 = curve, row 3 = square.
 
-<img src="figures/multi-example.png"
+<img src="figures/single-example.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />  
