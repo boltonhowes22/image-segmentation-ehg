@@ -22,7 +22,7 @@ We've included here a .csv file that represents 100 hypothetical grocery runs wi
 If you're stuck at all, really default to the blog post, as there is sample code there for a slightly simpler version of this problem, and all the math for gradient calculation and everything is gone over in detail. The sample code is written in python, but feel free to use whichever language you wish. Once you have a trainable neuron, really go crazy, and see how different parameters affect its performance. Make plots, and come ready to share what you've learned.
 
 ---
-#### Nifty Data Importing 
+#### Nifty Data Importing
 If you are trying to do it in Python and in a Google Colab, you can run this block of code to import Ryan's training data from the GitHub without downloading the csv.
 ```python
 import pandas as pd
